@@ -1,3 +1,7 @@
 #SPDX-License-Identifier: MIT-0
 ---
 # defaults file for traefik
+
+traefik_conf_path: "/etc/traefik"
+traefik_dyn_conf_folder: "conf.d"
+traefik_dyn_conf_file: "dynamic.yaml"
